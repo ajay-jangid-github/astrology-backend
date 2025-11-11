@@ -11,14 +11,14 @@ const sampleBlogs = [
     title: "Understanding Your Birth Chart",
     category: "Astrology Basics",
     description: "Learn how to read and interpret your birth chart for better life insights.",
-    imageUrl: "https://via.placeholder.com/400x300/FF6B35/FFFFFF?text=Birth+Chart"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/blog1.jpg"
   },
   {
     name: "Pandit Purshotam Gaur", 
     title: "Planetary Remedies for Success",
     category: "Remedies",
     description: "Discover powerful planetary remedies to overcome obstacles and achieve success.",
-    imageUrl: "https://via.placeholder.com/400x300/4ECDC4/FFFFFF?text=Remedies"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/blog2.jpg"
   }
 ];
 
@@ -28,43 +28,43 @@ const sampleProducts = [
     price: 1500,
     oldprice: 2000,
     role: "Spiritual Protection",
-    imageUrl: "https://via.placeholder.com/300x300/8B4513/FFFFFF?text=Rudraksha"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/rudraksha.jpg"
   },
   {
     name: "Gemstone Ring",
     price: 5000,
     oldprice: 7000,
     role: "Planetary Remedy",
-    imageUrl: "https://via.placeholder.com/300x300/FFD700/000000?text=Gemstone"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/gemstone.jpg"
   },
   {
     name: "Yantra Set",
     price: 2500,
     oldprice: 3500,
     role: "Energy Enhancement",
-    imageUrl: "https://via.placeholder.com/300x300/FF1493/FFFFFF?text=Yantra"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/yantra.jpg"
   },
   {
     name: "Puja Kit",
     price: 1200,
     oldprice: 1800,
     role: "Ritual Essentials",
-    imageUrl: "https://via.placeholder.com/300x300/32CD32/FFFFFF?text=Puja+Kit"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/puja.jpg"
   }
 ];
 
 const samplePhotos = [
   {
-    imageUrl: "https://via.placeholder.com/400x300/FF6B35/FFFFFF?text=Gallery+1"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/gallery1.jpg"
   },
   {
-    imageUrl: "https://via.placeholder.com/400x300/4ECDC4/FFFFFF?text=Gallery+2"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/gallery2.jpg"
   },
   {
-    imageUrl: "https://via.placeholder.com/400x300/45B7D1/FFFFFF?text=Gallery+3"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/gallery3.jpg"
   },
   {
-    imageUrl: "https://via.placeholder.com/400x300/96CEB4/FFFFFF?text=Gallery+4"
+    imageUrl: "https://res.cloudinary.com/dl65hiwyr/image/upload/v1/astrology/gallery4.jpg"
   }
 ];
 
