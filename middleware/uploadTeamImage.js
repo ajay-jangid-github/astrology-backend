@@ -6,11 +6,11 @@ const cloudinary = require("../utils/cloudinary");
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: "company/team",       // Cloudinary folder
-    resource_type: "image",       // image type
+    folder: "astrology/photos",
+    resource_type: "image",
     allowed_formats: ["jpg", "jpeg", "png"],
     public_id: (req, file) => {
-      return `team-${Date.now()}-${file.originalname.split(".")[0]}`;
+      return `photo-${Date.now()}-${file.originalname.split(".")[0]}`;
     },
     quality: "auto",
     fetch_format: "auto",
